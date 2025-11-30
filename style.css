@@ -579,3 +579,29 @@ h3 {
     align-items: flex-start;
   }
 }
+
+/* ===================================== */
+/*  Responsive Fixes                     */
+/* ===================================== */
+@media (max-width: 768px) {
+  .page-section,
+  .hero,
+  .content-wrapper,
+  .snapshot-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .snapshot-card, 
+  .snapshot, 
+  .opportunities {
+    width: 90% !important;
+    margin: 1.5rem auto !important;
+  }
+
+  h1, h2, h3, p {
+    text-align: center !important;
+  }
+}
